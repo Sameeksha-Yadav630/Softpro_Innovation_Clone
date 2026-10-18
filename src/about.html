@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Betania+Patmos&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DE+LA+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Betania+Patmos&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DE+LA+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="m-0 overflow-x-hidden">
+    <div class="w-full ">
+        <div class="grid grid-cols-12 bg-amber-50 text-white">
+            <div class="col-span-10 col-start-2 text-center  bg-amber-50 gap-5">
+
+                <!--Navbar start from here-->
+                <div class="navbar bg-amber-50 ">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="-1"
+                                class="menu menu-sm dropdown-content bg-amber-50 rounded-box z-1 mt-3 w-52 p-2 ">
+                                <li><a>Item 1</a></li>
+
+                                <li><a>Item 3</a></li>
+                            </ul>
+                        </div>
+                        <img class="h-10 w-10" src=".//images/spi-image-A.png">
+                        <h1 class="font-bold text-xl text-black ml-3">Softpro</h1>
+                        <h1 class="font-bold text-xl text-red-500 ">Innovation</h1>
+
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a class="text-black text-base hover:underline decoration-pink-500"
+                                    style="font-family: 'Roboto', sans-serif" ;>Home</a></li>
+                            <li><a class="text-black text-base hover:underline decoration-pink-500 underline decoration-pink-500"
+                                    style="font-family: 'Roboto', sans-serif" ;>About</a></li>
+                            <li><a class="text-black text-base hover:underline decoration-pink-500"
+                                    style="font-family: 'Roboto', sans-serif" ;>Product</a></li>
+                            <li><a class="text-black text-base hover:underline decoration-pink-500"
+                                    style="font-family: 'Roboto', sans-serif" ;>Contact Us</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="navbar-end  xs:hidden lg:block xl:block ">
+                        <a class="btn bg-white text-black text-bold rounded-md"><i class="fa-solid fa-moon"></i>Dark</a>
+                        <a class="btn underline decoration-black bg-white text-black text-bold  rounded-md"><i
+                                class="fa-solid fa-cart-shopping "></i>Cart</a>
+                        <a class="btn underline decoration-black bg-white text-black text-bold  rounded-md ">Login</a>
+                        <a
+                            class="btn underline decoration-white bg-orange-500 text-white text-bold  rounded-md ">Register</a>
+                    </div>
+                </div>
+                <!--Navbar ends here-->
+            </div>
+        </div>
+    </div>
+
+    <!--Empowering Makers section start from here-->
+
+    <div class="grid grid-cols-12 w-full h-[400px] bg-linear-to-r  from-blue-950 to-red-400 relative ">
+
+        <!--Circle on makers section-->
+        <div
+            class="absolute h-[300px] w-[300px] border-[45px] rounded-full border-white right-[-90px] bottom-[-80px] opacity-[0.1]">
+        </div>
+        <!--Circle on makers section ends here-->
+
+        <div class="col-span-11 col-start-2">
+            <h1 class="text-orange-600 font-medium mt-8">Our Story</h1>
+            <h1 class="text-white font-medium text-5xl mt-3" style="font-family: 'Abril Fatface', sans-serif;">
+                Empowering <span class="text-orange-600">Makers</span>
+                <br>Across India
+            </h1>
+            <p class="text-white mt-4 font-normal">SoftproInnovation started with a simple belief: every engineer,
+                student, and <br> hobbyist deserves access to
+                quality electronics components at fair prices,<br> with support that actually helps them build.</p>
+
+            <!--button Section-->
+
+            <button
+                class="btn mt-6  px-10 py-6 rounded-lg bg-orange-500 text-white font-bold text-base border-orange-500 underline decoration-white ">
+                Browse Products </button>
+            <button class="btn mt-6 ml-2 px-10 py-6 rounded-lg bg-transparent text-white border-white underline decoration-white hover:bg-white/20
+                ">
+                Get in Touch
+            </button>
+            <!--button section ends here-->
+        </div>
+    </div>
+
+    <!--Empowering Makers section ends here-->
+
+    <!--Building the Future section start from here-->
+
+    <div class="grid grid-cols-12 w-full h-[400px] bg-white">
+        <div class="col-span-10 col-start-2 h-full w-[full] grid grid-cols-10 gap-15">
+            <!--left side-->
+            <div class="col-span-5">
+                <h1 class="text-orange-600 mt-10 uppercase text-sm font-medium">Our Mission</h1>
+                <h1 class="font-medium text-5xl mt-3" style="font-family: 'Abril Fatface', sans-serif;">Building the <span class="text-orange-600">Future</span><br> One Kit at a Time</h1>
+               
+                <!--border section-->
+               <div class=" border-b-3 w-12 border-orange-600 mt-3"></div>
+
+                <!--border section ends-->
+
+                <p class="mt-4 text-base">We believe in lowering the barrier to hardware innovation. From a school science project to a
+                    professional IoT product, we stock everything you need and ship it to your doorstep anywhere in
+                    India.</p>
+                <p class="mt-3 text-base">Our team of engineers hand-picks every product, writes detailed guides, and provides real human
+                    support — because we are makers ourselves.</p>
+            </div>
+            <!--left side ends-->
+            <!--right side start-->
+            <div class="col-span-5 grid grid-cols-2 ">
+                <div class="border w-70  h-30 text-black mt-20 rounded-xl ">
+                    <h1 class="text-orange-600 text-4xl mt-5 ml-6 font-serif ">5,000+</h1>
+                    <p class="mt-1 ml-6">Products</p>
+                </div>
+                <div class="border w-70 h-30 text-black mt-20 rounded-xl">
+                    <h1 class="text-orange-600 text-4xl mt-5 ml-6 font-serif ">50K+</h1>
+                    <p class="mt-1 ml-6">Happy Customers</p>
+                </div>
+                <div class="border w-70 h-30 text-black -mt-10 rounded-xl">
+                    <h1 class="text-orange-600 text-4xl mt-5 ml-6 font-serif ">7</h1>
+                    <p class="mt-1 ml-6">Years in Business</p>
+                </div>
+                <div class="border w-70 h-30 text-black -mt-10 rounded-xl">
+                    <h1 class="text-orange-600 text-4xl mt-5 ml-6 font-serif ">99.8%</h1>
+                    <p class="mt-1 ml-6">Order Accuracy</p>
+                </div>
+            </div>
+            <!--right side ends-->
+        </div>
+    </div>
+
+    <!--Building the Future section ends here-->
+
+    <!--Our Core Values start from here-->
+
+    <div class="grid grid-cols-12 w-full h-[650px] bg-amber-50">
+        <div class="col-span-10 col-start-2 h-full">
+            <h1 class="text-center text-orange-600 text-base mt-12">What We Stand For</h1>
+            <h1 class="text-center font-medium text-4xl mt-2"  style="font-family: 'Abril Fatface', sans-serif;">Our Core <span class="text-orange-600"> Values</span></h1>
+            <!--border section start-->
+                  <div class=" border-b-3 w-12 border-orange-600 mt-3 text-center ml-150"></div>
+           <!--border section end-->
+
+
+        </div>
+        <!--card section start from here-->
+        <div class="col-span-10 col-start-2 pb-8 -mt-10 grid grid-cols-3 gap-5">
+            <!--Card 1 start-->
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <div class="card-body">
+                    <p class="text-4xl">🎯</p>
+                    <h2 class="card-title -mt-4">Curated Quality</h2>
+                    <p>Every product is tested and verified by our in-house engineering team before it hits the shelf.</p>
+                    <div class="card-actions justify-end">
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Card 1 end-->
+            <!--Card 2 start-->
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <div class="card-body">
+                    <p class="text-4xl">🚀</p>
+                    <h2 class="card-title">Fast Fulfilment</h2>
+                    <p>Orders placed before 3 PM are dispatched same day. Most customers receive within 24–48 hours.</p>
+                    <div class="card-actions justify-end">
+                       
+                    </div>
+                </div>
+            </div>
+            <!--Card 2 end-->
+            <!--Card 3 start-->
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <div class="card-body">
+                    <p class="text-4xl">🛡️</p>
+                    <h2 class="card-title">Genuine Components</h2>
+                    <p>We source directly from Raspberry Pi Ltd, Arduino S.r.l., and authorised distributors only.</p>
+                    <div class="card-actions justify-end">
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Card 3 end-->
+            <!--Card 4 start-->
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <div class="card-body">
+                    <p class="text-4xl">🤝</p>
+                    <h2 class="card-title">Maker Support</h2>
+                    <p>Our technical team is available via chat, email, and phone to help debug your projects.</p>
+                    <div class="card-actions justify-end">
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Card 4 end-->
+            <!--Card 5 start-->
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <div class="card-body">
+                    <p class="text-4xl">🌱</p>
+                    <h2 class="card-title">Community First</h2>
+                    <p>We sponsor hackathons, college labs, and open-source hardware projects across India.</p>
+                    <div class="card-actions justify-end">
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Card 5 end-->
+            <!--Card 3 start-->
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <div class="card-body">
+                    <p class="text-4xl">💡</p>
+                    <h2 class="card-title">Continuous Learning</h2>
+                    <p>Free project tutorials, wiring guides, and datasheets ship with every order.</p>
+                    <div class="card-actions justify-end">
+                       
+                    </div>
+                </div>
+            </div>
+            <!--Card 6 end-->
+        </div>
+    </div>
+    <!--Our Core Values end here-->
+
+    <!--Our Journey start from here-->
+
+    <div class="grid grid-cols-12 w-full h-[600px] bg-white-50">
+        <div class="col-span-10 col-start-2 h-full">
+            <h1 class="text-center text-orange-600 text-base mt-12">How We Got Here</h1>
+            <h1 class="text-center font-medium text-4xl mt-2"  style="font-family: 'Abril Fatface', sans-serif;">Our <span class="text-orange-600">Journey</span></h1>
+            <!--border section start-->
+                  <div class=" border-b-3 w-12 border-orange-600 mt-3 text-center ml-150"></div>
+           <!--border section end-->
+
+        </div>
+        <div class="col-span-10 col-start-3 h-full -mt-15 ml-21 ">
+            <div class="flex">
+            <h1 class="text-orange-600 font-serif text-lg font-semibold">2018</h1>
+            <div class="border border-gray-400 h-12 ml-10"></div>
+            <p class="ml-6 text-gray-600">Founded in a small garage in Lucknow with 200 SKUs and a dream.</p>
+            </div>
+
+            <div class="flex mt-5">
+            <h1 class="text-orange-600 font-serif text-lg font-semibold">2019</h1>
+            <div class="border border-gray-400 h-12 ml-10"></div>
+            <p class="ml-6 text-gray-600">Launched online store — 1,000 orders in the first six months.</p>
+            </div>
+
+             <div class="flex mt-5">
+            <h1 class="text-orange-600 font-serif text-lg font-semibold">2021</h1>
+            <div class="border border-gray-400 h-12 ml-10"></div>
+            <p class="ml-6 text-gray-600">Reached 10,000 customers and opened our first warehouse.</p>
+            </div>
+
+             <div class="flex mt-5">
+            <h1 class="text-orange-600 font-serif text-lg font-semibold">2023</h1>
+            <div class="border border-gray-400 h-12 ml-10"></div>
+            <p class="ml-6 text-gray-600">Became an official Raspberry Pi Approved Reseller for India.</p>
+            </div>
+
+             <div class="flex mt-5">
+            <h1 class="text-orange-600 font-serif text-lg font-semibold">2024</h1>
+            <div class="border border-gray-400 h-12 ml-10"></div>
+            <p class="ml-6 text-gray-600">5,000+ products, 50,000+ orders, and growing every day.</p>
+            </div>
+        </div>
+    </div>
+    <!--Our Journey ends from here-->
+
+    <!--next project start from here-->
+    <div class="grid grid-cols-12 w-full h-[300px] bg-amber-50">
+        <div class="col-span-10 col-start-2 h-full ">
+            <h1 class="text-center text-orange-600 text-base mt-12">Ready to Build?</h1>
+            <h1 class="text-center font-normal text-4xl mt-3"  style="font-family: 'Abril Fatface', sans-serif;">Start your next project with  <span class="text-orange-600">SoftproInnovation</span></h1>
+        <!--button Section-->
+
+            <button
+                class="btn mt-6  px-10 py-6 rounded-xl bg-orange-500 text-white font-bold text-base border-orange-500 underline decoration-white ml-122">
+                Show now </button>
+            <button class="btn mt-6 ml-2 px-10 py-6 rounded-xl bg-transparent text-black border-gray-300/40 underline decoration-white hover:bg-white/20
+                ">
+                Contact Us
+            </button>
+            <!--button section ends here-->
+        </div>
+    </div>
+    <!--next project ends here-->
+
+    <!--footer section start from here-->
+  <div class="grid grid-cols-12 w-full h-[500px] bg-blue-950">
+    <div class="col-span-10 h-full col-start-2 flex gap-15">
+      <div class="col-span-2 mt-22">
+        <h1 class="text-3xl font-medium text-white" style="font-family: 'Abril Fatface', sans-serif;">Softpro<span
+            class="text-3xl font-medium text-orange-500"
+            style="font-family: 'Abril Fatface', sans-serif;">Innovation</span></h1>
+        <p class="text-gray-300 mt-4">Your trusted source for microcontrollers,<br> single-board computers, and
+          electronics<br> components in India.</p>
+        <div class="flex gap-3 mt-5 ">
+          <div class="border h-10 w-10 border-slate-300 rounded-lg flex items-center justify-center bg-white/20"><i
+              class="fa-brands fa-facebook-f text-white "></i></div>
+          <div class="border h-10 w-10 border-slate-300 rounded-lg flex items-center justify-center bg-white/20"><i
+              class="fa-brands fa-twitter text-white"></i></div>
+          <div class="border h-10 w-10 border-slate-300 rounded-lg flex items-center justify-center bg-white/20"><i
+              class="fa-brands fa-instagram text-white"></i></div>
+          <div class="border h-10 w-10 border-slate-300 rounded-lg flex items-center justify-center bg-white/20"><i
+              class="fa-brands fa-youtube text-white"></i></div>
+          <div class="border h-10 w-10 border-slate-300 rounded-lg flex items-center justify-center bg-white/20"><i
+              class="fa-brands fa-linkedin-in text-white"></i></div>
+        </div>
+      </div>
+      <div class="col-span-2 mt-22 ml-10 w-[150px]">
+        <h1 class="text-medium font-bold text-white"> Quick Links</h1>
+        <div class="mt-7 text-gray-300 underline decoration-gray-300  ">
+          <ul>
+            <li class="hover:text-orange-500">Home</li>
+            <li class="mt-1.5 hover:text-orange-500">About Us</li>
+            <li class="mt-1.5 hover:text-orange-500">Products</li>
+            <li class="mt-1.5 hover:text-orange-500">Contact Us</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-span-2 mt-22 ">
+        <h1 class="text-medium font-bold text-white w-[150px]"> Categories</h1>
+        <div class="mt-7 text-gray-300 underline decoration-gray-300  ">
+          <ul>
+            <li class="hover:text-orange-500 " >Raspberry Pi</li>
+            <li class="mt-1.5 hover:text-orange-500 ">Arduino</li>
+            <li class="mt-1.5 hover:text-orange-500 ">ESP32 / ESP8266</li>
+            <li class="mt-1.5 hover:text-orange-500 ">Sensors</li>
+            <li class="mt-1.5 hover:text-orange-500 ">Displays</li>
+            <li class="mt-1.5 hover:text-orange-500 ">Power Modules</li>
+          </ul>
+        </div>
+        </div>
+
+        <div class="col-span-2 mt-22">
+          <h1 class="text-medium font-bold text-white"> Support</h1>
+        <div class="mt-7 text-gray-300 underline decoration-gray-300 w-[150px] ">
+          <ul>
+            <li class="hover:text-orange-500" >Privacy Policy</li>
+            <li class="mt-1.5 hover:text-orange-500 ">Terms of Service</li>
+            <li class="mt-1.5 hover:text-orange-500 ">Return Policy</li>
+            <li class="mt-1.5 hover:text-orange-500 ">Shipping Info</li>
+            <li class="mt-1.5 hover:text-orange-500 ">FAQs</li>
+            <li class="mt-1.5 hover:text-orange-500 ">Track Order</li>
+          </ul>
+        </div>
+        </div>
+
+        <div class="col-span-2  mt-22 w-[350px]">
+          <h1 class="text-medium font-bold text-white">Get in Touch</h1>
+          <div class="mt-7 text-gray-300  flex gap-4">
+            <span>
+  
+              <i class="fa-solid fa-location-dot" style="color: rgb(255, 141, 59);"></i>
+            </span>
+            <p>
+              Softpro House<br> 3/213, Sec-J, Jankipuram, Kursi Road <br>Near Gudamba Police Station<br> Lucknow - 2260021 
+            </p>
+           
+          </div>
+          <div class="mt-4 text-gray-300  flex gap-4">
+            <span>
+  
+              <i class="fa-solid fa-phone" style="color: rgb(255, 147, 59);"></i>
+            </span>
+            <p class="underline decoration-gray-300 hover:text-orange-500  ">
+             +91 7830198385
+            </p>
+           
+          </div>
+
+          <div class="mt-4 text-gray-300  flex gap-4">
+            <span>
+  
+              <i class="fa-solid fa-envelope" style="color: rgb(255, 137, 59);"></i>
+            </span>
+            <p class="underline decoration-gray-300 hover:text-orange-500">
+              pushkar@gmail.com
+            </p>
+           
+          </div>
+
+          <div class="mt-4 text-gray-300  flex gap-4">
+            <span>
+  
+              <i class="fa-solid fa-clock" style="color: rgb(255, 147, 59);"></i>
+            </span>
+            <p>
+              Mon – Sat: 10:00 AM – 7:00 PM
+            </p>
+           
+          </div>
+        </div>
+        </div>
+        <!--horizontal line start -->
+        <div class="col-span-12">
+          <hr class="border-gray-700 mt-18">
+        </div>
+        <!--horizontal line ends-->
+        <div class="col-span-10 h-full col-start-2 grid grid-cols-10">
+          <div class="col-span-3 text-gray-400 text-sm" > &copy; 2026 SoftproInnovation. All rights reserved.</div>
+          <div class=" col-span-3"></div>
+          <div class="col-span-4 text-gray-400 text-sm ml-10">Design & Development by Softpro India Computer Technology Pvt. Ltd</div>
+
+        </div>
+        
+        </div>
+      
+    
+    <!--footer section ends here-->
+
+
+
+</body>
+
+</html>
